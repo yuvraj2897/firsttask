@@ -1,0 +1,25 @@
+class box{
+    double width;
+    double height;
+    double depth;
+    double volume(){
+        // System.out.print("volume is");
+        return 0;
+        System.out.println("width*height*depth");
+    }
+}
+class boxdemo3{
+    public static void main(string args[]){
+        box mybox1=new box();
+        box mybox=new box();
+        mybox1.width=10;
+        mybox1.heigth=20;
+        mybox1.depth=15;
+        mybox2.width=3;
+        mybox2.height=6;
+        mybox2.depth=9;
+        double r = mybox2.volume();
+        System.out.print("r");
+    }
+}
+      
